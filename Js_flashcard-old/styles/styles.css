@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato&display=swap');
+
+/*navbar*/
+
+
+
+.navbar-expand-lg {
+    background-color: #5c2b58;
+    height: 200px;
+  
+}
+
+.nav-logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1000px;
+    margin-left: 100px;
+    height: 300px;
+    width: 150px;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    display: inline;
+    /* padding-top: .3125rem;
+    padding-bottom: .3125rem; */
+    padding-left: 600px;
+    border-right: 100px;
+    /* margin-right: 1rem; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 1000px;
+    text-align: center;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+
+.nav-link {
+    color: #ffffff;
+    border-right: 100px;    
+}
+
+
+/*end navbar*/
+
+/*cards*/
+
+.card-deck {
+    margin-top: 40px;
+    margin-bottom: 73px;
+}
+
+.flip-card {
+    border: 7px groove #5c2b58;
+    border-radius: 8px;
+   
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.card-front {
+    background-color: #EDEBD0;
+}
+
+.hr {
+    border-top: 1.5px dotted #cccccc;
+    padding: 1px 3px 0px 3px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #ffffff;
+    height: 1px;
+    width: 98%; 
+    
+}
+
+.hr2 {
+    border-top: 1.5px dotted #cccccc;
+    padding: 1px 3px 0px 3px;
+    margin-left: 3px;
+    color: #ffffff;
+    background-color: #ffffff;
+    height: 1px;
+    width: 96.5%; 
+} 
+
+.button{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 250px;
+    width: 112px;
+    height: 31px;
+    padding: 3px 11px 5px 10px;
+   
+}
+
+button {
+	/*box-shadow: 0px 10px 14px -7px #276873;*/
+	background:linear-gradient(to bottom, #75b3c9 5%, #408c99 100%);
+	background-color:#75b3c9;
+    border-radius:6px;
+    border-color: #75b3c9;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:19px;
+	padding:5px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+button:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #75b3c9 100%);
+	background-color:#408c99;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+/*end cards*/ 
+
+/*Footer*/
+
+.footer-bottom {
+    background-color: #5c2b58;
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 125px;
+        
+}
+
+
+
+/*Social Media Icons*/
+
+.social-media{
+  padding-left: 820px;
+  margin-top: -20px;
+  margin-right: 100px;
+  margin-left: 20px;
+  
+  
+}
+
+
+.fa {
+   padding: 1.5px;
+   font-size: 11px;
+   width: 25px;
+   height: 25px;
+   text-align: center;
+   text-decoration: none;
+   margin: 3px 0px;
+ }
+ 
+ .fa:hover {
+     opacity: 0.7;
+ }
+ 
+ .fa-user {
+   background: #ff6600;
+   color: white;
+ }
+
+
+ .fa-twitter {
+   background: #55ACEE;
+   color: white;
+ }
+ 
+ 
+ .fa-linkedin {
+   background: #007bb5;
+   color: white;
+ }
+
+ /* end Social Media Icons*/
+
+ /*end footer*/
+

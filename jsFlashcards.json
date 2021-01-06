@@ -1,0 +1,246 @@
+[{
+	"explanation": "The most common variable. Can be reassigned but only accessed within a function. Variables defined with var move to the top when code is executed.( Use of var is discouraged since the release of ES6",
+	"category": "Variables",
+	"name": "var",
+	"subtype": "var"
+}, {
+	"explanation": "Cannot be reassigned and not accessible before they appear within the code.",
+	"category": "Variables",
+	"name": "const",
+	"subtype": "const"
+}, {
+	"explanation": "Similar to const, however, let variable can be reassigned but not re-declared.",
+	"category": "Variables",
+	"name": "let",
+	"subtype": "let"
+}, {
+	"explanation": "Join several arrays into one",
+	"category": "Arrays",
+	"name": "Array Method",
+	"subtype": "concat"
+}, {
+	"explanation": "Returns the first position at which a given element appears in an array",
+	"category": "Arrays",
+	"name": "Array Method",
+	"subtype": "indexOf()"
+}, {
+	"explanation": "Combine elements of an array into a single string and return the string",
+	"category": "Arrays",
+	"name": "Array Method",
+	"subtype": "join()"
+}, {
+	"explanation": "Gives the last position at which a given element appears in an array",
+	"category": "Arrays",
+	"name": "Array Method",
+	"subtype": "lastIndexOf()"
+}, {
+	"explanation": "Removes the last element of an array",
+	"category": "Arrays",
+	"name": "Array Method",
+	"subtype": "pop()"
+}, {
+	"explanation": "Add a new element at the end",
+	"category": "Arrays",
+	"name": "Array Method",
+	"subtype": "push()"
+}, {
+	"explanation": "Reverse the order of the elements in an array",
+	"category": "Arrays",
+	"name": "Array Method",
+	"subtype": "reverse()"
+}, {
+	"explanation": "Remove the first element of an array",
+	"category": "Arrays",
+	"name": "Array Method",
+	"subtype": "shift()"
+}, {
+	"explanation": "Pulls a copy of a portion of an array into a new array",
+	"category": "Arrays",
+	"name": "Array Method",
+	"subtype": "slice()"
+}, {
+	"explanation": "Sorts elements alphabetically",
+	"category": "Arrays",
+	"name": "Array Method",
+	"subtype": "sort()"
+}, {
+	"explanation": "Adds elements in a specified way and position",
+	"category": "Arrays",
+	"name": "Array Method",
+	"subtype": "splice()"
+}, {
+	"explanation": "Converts elements to strings",
+	"category": "Arrays",
+	"name": "Array Method",
+	"subtype": "toString()"
+}, {
+	"explanation": "Adds a new element to the beginning",
+	"category": "Arrays",
+	"name": "Array Method",
+	"subtype": "unshift()"
+}, {
+	"explanation": "Returns the primitive value of the specified object",
+	"category": "Arrays",
+	"name": "Array Method",
+	"subtype": "valueOf()"
+}, {
+	"explanation": "Addition",
+	"category": "Operators",
+	"name": "Basic Operators",
+	"subtype": "+"
+}, {
+	"explanation": "Subtraction",
+	"category": "Operators",
+	"name": "Basic Operators",
+	"subtype": "-"
+}, {
+	"explanation": "Multiplication",
+	"category": "Operators",
+	"name": "Basic Operators",
+	"subtype": "*"
+}, {
+	"explanation": "Division",
+	"category": "Operators",
+	"name": "Basic Operators",
+	"subtype": "/"
+}, {
+	"explanation": "Modulus (Remainder)",
+	"category": "Operators",
+	"name": "Basic Operators",
+	"subtype": "%"
+}, {
+	"explanation": "Grouping operator",
+	"category": "Operators",
+	"name": "Basic Operators",
+	"subtype": "(..)"
+}, {
+	"explanation": "Increment Numbers",
+	"category": "Operators",
+	"name": "Basic Operators",
+	"subtype": "++"
+}, {
+	"explanation": "Decrement Numbers",
+	"category": "Operators",
+	"name": "Basic Operators",
+	"subtype": "--"
+}, {
+	"explanation": "Equal to",
+	"category": "Operators",
+	"name": "Comparison Operators",
+	"subtype": "(==)"
+}, {
+	"explanation": "Equal Value and equal type",
+	"category": "Operators",
+	"name": "Comparison Operators",
+	"subtype": "(===)"
+}, {
+	"explanation": "Not equal",
+	"category": "Operators",
+	"name": "Comparison Operators",
+	"subtype": "(!=)"
+}, {
+	"explanation": "Not equal value or not equal type",
+	"category": "Operators",
+	"name": "Comparison Operators",
+	"subtype": "(!==)"
+}, {
+	"explanation": "Greater than",
+	"category": "Operators",
+	"name": "Comparison Operators",
+	"subtype": "(>)"
+}, {
+	"explanation": "Less than",
+	"category": "Operators",
+	"name": "Comparison Operators",
+	"subtype": "(<)"
+}, {
+	"explanation": "Greater than or equal to",
+	"category": "Operators",
+	"name": "Comparison Operators",
+	"subtype": "(>=)"
+}, {
+	"explanation": "Ternary Operator",
+	"category": "Operators",
+	"name": "Comparison Operators",
+	"subtype": "(?)"
+}, {
+	"explanation": "Logical and",
+	"category": "Operators",
+	"name": "Logical Operators",
+	"subtype": "(&&)"
+}, {
+	"explanation": "Logical or",
+	"category": "Operators",
+	"name": "Logical Operators",
+	"subtype": "(||)"
+}, {
+	"explanation": "Logical not",
+	"category": "Operators",
+	"name": "Logical Operators",
+	"subtype": "(!)"
+}, {
+	"explanation": "Output data in an alert box in the browser window",
+	"category": "Functions",
+	"name": "Outputting Data",
+	"subtype": "(alert())"
+}, {
+	"explanation": "Opens up a yes/no dialog and returns true/false depending on user click",
+	"category": "Functions",
+	"name": "Outputting Data",
+	"subtype": "(confirm())"
+}, {
+	"explanation": "Writes information to the browser console, good for debugging purposes",
+	"category": "Functions",
+	"name": "Outputting Data",
+	"subtype": "(console.log())"
+}, {
+	"explanation": "Write directly to the HTML document",
+	"category": "Functions",
+	"name": "Outputting Data",
+	"subtype": "(document.write())"
+}, {
+	"explanation": "Creates an dialogue for user input",
+	"category": "Functions",
+	"name": "Outputting Data",
+	"subtype": "(prompt())"
+}, {
+	"explanation": "Decodes a Uniform Resource Identifier (URI) created by encodeURI or similar",
+	"category": "Functions",
+	"name": "Global Functions",
+	"subtype": "(decodeURI())"
+}, {
+	"explanation": "Decodes a URI component",
+	"category": "Functions",
+	"name": "Global Functions",
+	"subtype": "(decodeURIComponent())"
+}, {
+	"explanation": "Encodes a URI into UTF-8",
+	"category": "Functions",
+	"name": "Global Functions",
+	"subtype": "(encodeURI())"
+}, {
+	"explanation": "Encodes a URI component into UTF-8",
+	"category": "Functions",
+	"name": "Global Functions",
+	"subtype": "(encodeURIComponent())"
+}, {
+	"explanation": "Evaluates JavaScript code represented as a string",
+	"category": "Functions",
+	"name": "Global Functions",
+	"subtype": "(eval())"
+}, {
+	"explanation": "Determines whether a passed value is a finite number",
+	"category": "Functions",
+	"name": "Global Functions",
+	"subtype": "(isFinite())"
+}, {
+	"explanation": "Determines whether a value is NaN or not",
+	"category": "Functions",
+	"name": "Global Functions",
+	"subtype": "(isNaN())"
+}
+
+
+	
+]
+

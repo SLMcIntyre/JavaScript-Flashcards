@@ -1,0 +1,151 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+   }
+   @font-face {
+    font-family: Montserrat;
+    src: url('Montserrat-Medium.ttf');
+   }
+
+
+/*navbar*/
+.header {
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    
+
+
+}
+.navbar-expand-lg {
+    background-color: #5c2b58;
+    height: 200px;
+    margin-top: -80px;
+  
+}
+
+/*end navbar*/
+
+   /* #activityTitle{
+    text-align:center;
+    font-size:38px;
+    font-family:Montserrat,Arial;
+    margin-top:50px;
+   } */
+
+   #cardArea{
+    width:800px;
+    height:400px;
+    margin:auto;
+    margin-top:80px;
+    border:3px solid #ABB7B7;
+    border-radius:5px;
+    position:relative;
+    overflow:hidden;
+   }
+   .card{
+    width:800px;
+    height:400px;
+    position:absolute;
+    text-align:center;
+    line-height:200px;
+    font-size:45px;
+    color:#efefef;
+    font-family:Montserrat,Arial;
+    overflow:hidden;
+    cursor:pointer;
+   }
+
+   #card2{
+    font-size: 20px;
+   }
+
+   #nextButton{
+    width:80px;
+    text-align:center;
+    font-size:20px;
+    padding:10px;
+    cursor:pointer;
+    color:#efefef;
+    margin:auto;
+    margin-top:30px;
+    background-color:#019875;
+    border: 2px solid #1E824C;
+    border-radius:5px;
+    font-family:Montserrat,Arial;
+   }
+   #nextButton:hover{
+    opacity:.6;
+   }
+   #finalMessage{
+    text-align:center;
+    font-size:30px;
+    margin-top:30px;
+    font-family:Montserrat,Arial;
+   }
+
+   /*Footer*/
+
+.footer-bottom {
+    background-color: #5c2b58;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 90px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 125px;
+        
+}
+
+
+
+/*Social Media Icons*/
+
+.social-media{
+  padding-left: 820px;
+  margin-top: -20px;
+  margin-right: 100px;
+  margin-left: 20px;
+  
+  
+}
+
+
+.fa {
+   padding: 10px;
+   font-size: 11px;
+   width: 25px;
+   height: 25px;
+   text-align: center;
+   text-decoration: none;
+   margin: 3px 5px;
+   border-radius: 10%;
+ }
+ 
+ .fa:hover {
+     opacity: 0.7;
+ }
+ 
+ .fa-user {
+   background: #ff6600;
+   color: white;
+ }
+
+
+ .fa-twitter {
+   background: #55ACEE;
+   color: white;
+ }
+ 
+ 
+ .fa-linkedin {
+   background: #007bb5;
+   color: white;
+ }
+
+ /* end Social Media Icons*/
+
+ /*end footer*/
