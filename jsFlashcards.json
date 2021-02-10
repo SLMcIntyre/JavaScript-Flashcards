@@ -1,5 +1,5 @@
 [{
-	"explanation": "The most common variable. Can be reassigned but only accessed within a function. Variables defined with var move to the top when code is executed.( Use of var is discouraged since the release of ES6",
+	"explanation": "The most common variable. Can be reassigned but only accessed within a function. Variables defined with var move to the top when code is executed.( Use of var is discouraged since the release of ES6)",
 	"category": "Variables",
 	"name": "var",
 	"subtype": "var"
@@ -127,117 +127,137 @@
 	"explanation": "Equal to",
 	"category": "Operators",
 	"name": "Comparison Operators",
-	"subtype": "(==)"
+	"subtype": "=="
 }, {
 	"explanation": "Equal Value and equal type",
 	"category": "Operators",
 	"name": "Comparison Operators",
-	"subtype": "(===)"
+	"subtype": "==="
 }, {
 	"explanation": "Not equal",
 	"category": "Operators",
 	"name": "Comparison Operators",
-	"subtype": "(!=)"
+	"subtype": "!="
 }, {
 	"explanation": "Not equal value or not equal type",
 	"category": "Operators",
 	"name": "Comparison Operators",
-	"subtype": "(!==)"
+	"subtype": "!=="
 }, {
 	"explanation": "Greater than",
 	"category": "Operators",
 	"name": "Comparison Operators",
-	"subtype": "(>)"
+	"subtype": ">"
 }, {
 	"explanation": "Less than",
 	"category": "Operators",
 	"name": "Comparison Operators",
-	"subtype": "(<)"
+	"subtype": "<"
 }, {
 	"explanation": "Greater than or equal to",
 	"category": "Operators",
 	"name": "Comparison Operators",
-	"subtype": "(>=)"
+	"subtype": ">="
 }, {
 	"explanation": "Ternary Operator",
 	"category": "Operators",
 	"name": "Comparison Operators",
-	"subtype": "(?)"
+	"subtype": "?"
 }, {
 	"explanation": "Logical and",
 	"category": "Operators",
 	"name": "Logical Operators",
-	"subtype": "(&&)"
+	"subtype": "&&"
 }, {
 	"explanation": "Logical or",
 	"category": "Operators",
 	"name": "Logical Operators",
-	"subtype": "(||)"
+	"subtype": "||"
 }, {
 	"explanation": "Logical not",
 	"category": "Operators",
 	"name": "Logical Operators",
-	"subtype": "(!)"
+	"subtype": "!"
 }, {
 	"explanation": "Output data in an alert box in the browser window",
 	"category": "Functions",
 	"name": "Outputting Data",
-	"subtype": "(alert())"
+	"subtype": "alert()"
 }, {
 	"explanation": "Opens up a yes/no dialog and returns true/false depending on user click",
 	"category": "Functions",
 	"name": "Outputting Data",
-	"subtype": "(confirm())"
+	"subtype": "confirm()"
 }, {
 	"explanation": "Writes information to the browser console, good for debugging purposes",
 	"category": "Functions",
 	"name": "Outputting Data",
-	"subtype": "(console.log())"
+	"subtype": "console.log()"
 }, {
 	"explanation": "Write directly to the HTML document",
 	"category": "Functions",
 	"name": "Outputting Data",
-	"subtype": "(document.write())"
+	"subtype": "document.write()"
 }, {
 	"explanation": "Creates an dialogue for user input",
 	"category": "Functions",
 	"name": "Outputting Data",
-	"subtype": "(prompt())"
+	"subtype": "prompt()"
 }, {
 	"explanation": "Decodes a Uniform Resource Identifier (URI) created by encodeURI or similar",
 	"category": "Functions",
 	"name": "Global Functions",
-	"subtype": "(decodeURI())"
+	"subtype": "decodeURI()"
 }, {
 	"explanation": "Decodes a URI component",
 	"category": "Functions",
 	"name": "Global Functions",
-	"subtype": "(decodeURIComponent())"
+	"subtype": "decodeURIComponent()"
 }, {
 	"explanation": "Encodes a URI into UTF-8",
 	"category": "Functions",
 	"name": "Global Functions",
-	"subtype": "(encodeURI())"
+	"subtype": "encodeURI()"
 }, {
 	"explanation": "Encodes a URI component into UTF-8",
 	"category": "Functions",
 	"name": "Global Functions",
-	"subtype": "(encodeURIComponent())"
+	"subtype": "encodeURIComponent()"
 }, {
 	"explanation": "Evaluates JavaScript code represented as a string",
 	"category": "Functions",
 	"name": "Global Functions",
-	"subtype": "(eval())"
+	"subtype": "eval()"
 }, {
 	"explanation": "Determines whether a passed value is a finite number",
 	"category": "Functions",
 	"name": "Global Functions",
-	"subtype": "(isFinite())"
+	"subtype": "isFinite()"
 }, {
 	"explanation": "Determines whether a value is NaN or not",
 	"category": "Functions",
 	"name": "Global Functions",
-	"subtype": "(isNaN())"
+	"subtype": "isNaN()"
+}, {
+	"explanation": "Returns a number converted from its argument",
+	"category": "Functions",
+	"name": "Global Functions",
+	"subtype": "Number()"
+}, {
+	"explanation": "Parses an argument and returns a floating point number",
+	"category": "Functions",
+	"name": "Global Functions",
+	"subtype": "parseFloat()"
+}, {
+	"explanation": "Parses its argument and returns an integer",
+	"category": "Functions",
+	"name": "Global Functions",
+	"subtype": "parseInt()"
+},{
+	"explanation": "The most common way to create a loop in Javascript. The loop tells computers to repeat a given block of code on its own. The for loop typically includes an iterator variable and three expressions separated by semi-colons (an initialization, a stopping condition, and an iteration statement)--Syntax: for (before loop; condition for loop; execute after loop) { // what to do during the loop}",
+	"category": "Loops",
+	"name": "Loops",
+	"subtype": "for (){}"
 }
 
 

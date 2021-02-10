@@ -58,10 +58,10 @@ function togglePosition2(){
  if($("#card2").position().top==-400){$("#card2").css("top","400px");};
 }//toggle2
 
-function displayFinalMessage(){
- $("#buttonArea").empty();
- $("#cardArea").empty();
- $("#cardArea").append('<div id="finalMessage">You have finished the activity.</div>');
-}//final message
+// function displayFinalMessage(){
+//  $("#buttonArea").empty();
+//  $("#cardArea").empty();
+//  $("#cardArea").append('<div id="finalMessage">You have finished the activity.</div>');
+// }//final message
 
 });
